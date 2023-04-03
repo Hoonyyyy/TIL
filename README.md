@@ -12,7 +12,7 @@
 - [텍스트 관련](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EA%B4%80%EB%A0%A8.MD#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%9E%A5%EC%8B%9D-text-decoration)
 - [background 관련]()
 - [Position](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/Position%EA%B4%80%EB%A0%A8.MD#fixed%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%9C%84%EC%B9%98%EC%9E%A1%EB%8A%94%EA%B2%8C-%EB%8D%94%EC%9A%B1-%EC%A2%8B%EB%8B%A4)
-- [flex 관련](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/flex.MD#flexgrow%EC%99%80-flex-shrink)
+- [flex 관련](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/flex.MD#flex-%EA%B8%B0%EB%B3%B8)
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
