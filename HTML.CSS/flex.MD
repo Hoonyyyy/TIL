@@ -1,3 +1,17 @@
+# flex 기본
+```
+	display : flex;
+		. flex-direction: row | column | row-reverse | column-reverse
+		. justify-content : 주축방향의 배치
+							center | flext-start | flext-end
+							space-between | space-around
+		. flex-wrap : nowrap | wrap
+		. align-item : 주축을 놓고 위아래 정렬
+		. order : 놓여지는 순서변경 (정수값)
+		. flex-grow : flex의 늘어나는 배율설정 1:100%, 0.2: +20%
+```
+
+
 ## flexgrow와 flex-shrink
 유연한 레이아웃을 가능하게 하는 중요한 속성 2가지
 
