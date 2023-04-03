@@ -7,7 +7,7 @@
 
 ## implement
 - interface 상속에 사용
-- interface가 class를 사용할 떈 implets를 쓸 수 없다.
+- interface가 class를 사용할 떈 implements를 쓸 수 없다.
 - 여러개 사용 가능
 - 설계 목적으로 구현 가능하다
 - implement한 클래스는 implements의 내용을 다 사용해야 한다
