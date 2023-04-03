@@ -3,6 +3,7 @@
 
 # HTML, CSS
 - [단축키 모음]()
+- [텍스트 관련](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EA%B4%80%EB%A0%A8.MD#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%9E%A5%EC%8B%9D-text-decoration)
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
