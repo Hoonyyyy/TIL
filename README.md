@@ -1,5 +1,4 @@
 # JAVA
-- [JAVA 단축키 모음]()
 - [식별자 작성 규칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8B%9D%EB%B3%84%EC%9E%90%20%EC%9E%91%EC%84%B1%20%EA%B7%9C%EC%B9%99.MD#%EC%8B%9D%EB%B3%84%EC%9E%90-%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99)
 - [API 구성](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/API%20%EA%B5%AC%EC%84%B1.MD#api-%EA%B5%AC%EC%84%B1)
 - [System 클래스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/System%20%ED%81%B4%EB%9E%98%EC%8A%A4.MD#system-%ED%81%B4%EB%9E%98%EC%8A%A4)
@@ -12,7 +11,6 @@
 - [람다식](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EB%9E%8C%EB%8B%A4%EC%8B%9D.MD#%EB%9E%8C%EB%8B%A4%EC%8B%9D)
 
 # HTML, CSS
-- [단축키 모음]()
 ## HTML
 - [HTML의 기본](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/HTML%EC%9D%98%20%EA%B8%B0%EB%B3%B8.MD#html5)
 - [선택자 관련 Selector](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%EC%84%A0%ED%83%9D%EC%9E%90%20Selector.MD#%EC%84%A0%ED%83%9D%EC%9E%90)
