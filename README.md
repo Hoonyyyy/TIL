@@ -1,5 +1,6 @@
 # JAVA
 - [JAVA 단축키 모음]()
+- [interface인터페이스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.MD#interface)
 
 # HTML, CSS
 - [단축키 모음]()
