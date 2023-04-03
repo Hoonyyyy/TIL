@@ -1,6 +1,6 @@
 # JAVA
 - [JAVA 단축키 모음]()
-- [식별자 작성 규칙[(https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8B%9D%EB%B3%84%EC%9E%90%20%EC%9E%91%EC%84%B1%20%EA%B7%9C%EC%B9%99.MD#%EC%8B%9D%EB%B3%84%EC%9E%90-%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99)
+- [식별자 작성 규칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8B%9D%EB%B3%84%EC%9E%90%20%EC%9E%91%EC%84%B1%20%EA%B7%9C%EC%B9%99.MD#%EC%8B%9D%EB%B3%84%EC%9E%90-%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99)
 - [interface인터페이스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.MD#interface)
 - [컴파일런타임에러](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/compile%20runtime%20error.MD#run-time-compile-time)
 - [extend와 implement의 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/extend%EC%99%80%20implements%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD#%EC%B0%A8%EC%9D%B4)
