@@ -29,7 +29,7 @@
 - [flex grow, flex shrink](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/flex.MD#flexgrow%EC%99%80-flex-shrink)
 - [div등 태그종류 사용](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%ED%83%9C%EA%B7%B8%EC%A2%85%EB%A5%98%20%EB%B0%8F%20%EC%82%AC%EC%9A%A9.MD#div)
 - [z-index](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/z-index.MD#z-index)
-- [애니메이션 적용.MD](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EC%A0%81%EC%9A%A9.MD#%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9)
+- [애니메이션 적용](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EC%A0%81%EC%9A%A9.MD#%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9)
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
