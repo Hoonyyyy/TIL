@@ -34,6 +34,7 @@
 
 # Javascript
 - [작성법](https://github.com/Hoonyyyy/TIL/blob/main/Javascript/%EC%9E%91%EC%84%B1%EB%B2%95.MD#%EC%9E%91%EC%84%B1%EB%B2%95)
+- [이론들](https://github.com/Hoonyyyy/TIL/blob/main/Javascript/%EA%B0%81%EC%A2%85%20%EC%9D%B4%EB%A1%A0%EB%93%A4.MD#%EC%9D%B4%EB%A1%A0)
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
