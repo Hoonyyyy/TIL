@@ -83,3 +83,52 @@ jsonObject.sayHello(); // Hello!
 				- 키 : "값", 키:"값",,,,,
  -->
 ```
+
+
+### 예시2 왔다갔다
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function Student(name,dept,grade){
+		this.name = name;
+		this.dept = dept;
+		this.grade = grade;
+		this.phone = "010-1111-2222";
+		this.study = function() {
+			document.write("<h3>열심히 공부합니다</h3>");
+		}
+	}
+
+	let person = {
+		name	: "홍길동",
+		age		: 39,
+		hobby	:['축구','야구','배구']	
+	}
+
+</script>
+</head>
+<body>
+	<script>
+		let s1 = new Student("홍길동","컴공",3);
+		let s2 = new Student("강감찬","건축",2);
+		
+		// 클라이언트와 서버간 통신
+		//	. 자바스크립트 객체(Object) >> JSON.stringify(객체) >> JSON(String)
+		//	. JSON을 >> 객체로 활용할때... >> JSON.parse(JSON데이터) >> 활용
+
+		document.write(typeof(s1)+"<br>");
+		let s3 = JSON.stringify(s1);
+		document.write(typeof(s3)+"<br>");
+		document.write(s3+"<br>");
+
+		let s4 = JSON.parse(s3);
+		document.write(typeof(s4)+"<br>");
+
+	</script>
+</body>
+</html>
+```
