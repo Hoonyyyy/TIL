@@ -31,7 +31,7 @@
 - [z-index](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/z-index.MD#z-index)
 - [애니메이션 적용](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EC%A0%81%EC%9A%A9.MD#%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9)
 - [before,afoter](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/before%2Cafter.MD#%EA%B0%80%EC%83%81-%EC%9A%94%EC%86%8C%EB%8A%94-%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%95%9E%EC%97%90-%EC%BD%9C%EB%A1%A0%EC%9D%84-%EB%91%90%EA%B0%9C-%EB%8B%AC%EC%95%84-%EA%B0%80%EC%83%81-%EC%9A%94%EC%86%8C%EC%9E%84%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%A8)
--[input에서 id와 name의 차이](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/input%20name%20id%20%EC%B0%A8%EC%9D%B4.MD#input%EC%97%90%EC%84%9C-name%EA%B3%BC-id%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+- [input에서 id와 name의 차이](https://github.com/Hoonyyyy/TIL/blob/main/HTML.CSS/input%20name%20id%20%EC%B0%A8%EC%9D%B4.MD#input%EC%97%90%EC%84%9C-name%EA%B3%BC-id%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 
 # Javascript
 - [작성법](https://github.com/Hoonyyyy/TIL/blob/main/Javascript/%EC%9E%91%EC%84%B1%EB%B2%95.MD#%EC%9E%91%EC%84%B1%EB%B2%95)
