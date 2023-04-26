@@ -48,6 +48,10 @@
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
 
+# SQL
+## mysql
+- [기본](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EA%B8%B0%EB%B3%B8%20%EC%A0%95%EB%A6%AC.MD#%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%A6%AC)
+
 # 혼자 생각해본것
 - [생각해본것](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8%EA%B2%83.MD)
 - [관계형데이터베이스](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B4%80%EA%B3%84%ED%98%95%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B3%B5%EB%B6%80.MD#%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)
