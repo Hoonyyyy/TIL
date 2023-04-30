@@ -65,3 +65,5 @@
 
 - [로그인](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.MD#%EB%A1%9C%EA%B7%B8%EC%9D%B8)
 - [DBMS](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/DBMS.MD#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EC%8B%9C%EC%8A%A4%ED%85%9Cdbms)
+
+-[홈페이지 구성](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%AC%EC%84%B1.MD#%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B5%AC%EC%84%B1)
