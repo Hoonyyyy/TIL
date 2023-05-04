@@ -57,6 +57,7 @@
 - [내장함수](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98.MD#%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98md)
 - [view](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/view.MD#view)
 - [PROCEDURE](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/PROCEDURE.MD#proceduremd)
+- [trigger & trnasaction](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/transaction%20&%20trigger.MD#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%B0%8F-%ED%8A%B8%EB%A6%AC%EA%B1%B0md)
 
 # 혼자 생각해본것
 - [생각해본것](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8%EA%B2%83.MD)
