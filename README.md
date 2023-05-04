@@ -54,6 +54,7 @@
 ## mysql
 - [기본](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EA%B8%B0%EB%B3%B8%20%EC%A0%95%EB%A6%AC.MD#%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%A6%AC)
 - [EXISTS](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/EXISTS%20%EC%97%B0%EC%82%B0%EC%9E%90.MD#exists-%EC%97%B0%EC%82%B0%EC%9E%90)
+- [내장함수](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98.MD#%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98md)
 - [view](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/view.MD#view)
 
 # 혼자 생각해본것
