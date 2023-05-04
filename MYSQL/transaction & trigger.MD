@@ -25,7 +25,7 @@
 #### 트리거 종류 및 구현
 ```
 		종류
-			      - 입력할때...		before insert, after insert
+		- 입력할때...		before insert, after insert
           	- 수정할때...		before update, after update
           	- 삭제할때...		before delete, after delete
             
@@ -34,11 +34,11 @@
 			  ON 테이블
        for each row	// 각각의 행(레코드)에 대해서
        begin
-				SQL문		// old.컬럼, new.컬럼
-			 end
+	SQL문		// old.컬럼, new.컬럼
+	end
                     
-			* old : 변경이 가해지기 전 레코드 - old테이블
-			  new : 변경이 가해진 후 레코드 - new테이블
+	* old : 변경이 가해지기 전 레코드 - old테이블
+	new : 변경이 가해진 후 레코드 - new테이블
                     
       - INSERT	new
       - UPDATE	old, new
@@ -82,6 +82,31 @@
 
 
 
+```
+
+### 트리거 예제
+```mysql
+## 학생테이블에 새로운 데이터가 입력되었을때... 입력받은 학생테이블의 데이터를 학생B라는 테이블에
+## 백업해두는 트리거를 생성하시오.
+delimiter $$
+CREATE TRIGGER 학생백업 AFTER INSERT ON 학생
+FOR EACH ROW BEGIN
+	INSERT INTO 학생B
+    VALUES
+    (new.학생번호, new.소속학과, new.학생이름, new.학년, new.성별, new.나이, new.전화번호, new.주소);
+END$$
+delimiter ;
+
+drop trigger 학생백업;
+
+drop table 학생b;
+
+insert INTO 학생
+VALUES
+('201531002', '조경학과', '라마바', 2, '남', 23, '010-1234-5678', '서울시 성동구');
+
+SELECT *
+from 학생b;
 ```
 
 ### 트리거 및 트랜잭션 예제
