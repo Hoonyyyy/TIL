@@ -49,6 +49,7 @@
 
 # JSP
 - [Model1,2](https://github.com/Hoonyyyy/TIL/blob/main/JSP/Model1%2C2%2CMVC.MD#model12mvc)
+- [forward, redirect 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/forward%20redirect%20%EC%B0%A8%EC%9D%B4.MD#forward-redirect-%EC%B0%A8%EC%9D%B4)
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
