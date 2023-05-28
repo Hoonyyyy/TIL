@@ -12,6 +12,7 @@
 - [람다식](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EB%9E%8C%EB%8B%A4%EC%8B%9D.MD#%EB%9E%8C%EB%8B%A4%EC%8B%9D)
 - [원시타입vs참조타입](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9B%90%EC%8B%9C%ED%83%80%EC%9E%85vs%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85.MD#%EC%9B%90%EC%8B%9C-%ED%83%80%EC%9E%85-vs-%EC%B0%B8%EC%A1%B0-%ED%83%80%EC%9E%85)
 - [staic변수와 static메서드](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/static%EB%B3%80%EC%88%98%EC%99%80%20static%EB%A9%94%EC%84%9C%EB%93%9C.MD#static-%EB%B3%80%EC%88%98%EC%99%80-static-%EB%A9%94%EC%84%9C%EB%93%9C)
+- [list와 ArrayList차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/List%EC%99%80%20ArrayList%EC%B0%A8%EC%9D%B4.MD#list%EC%99%80-arraylist-%EC%B0%A8%EC%9D%B4)
 
 # HTML, CSS
 ## HTML
