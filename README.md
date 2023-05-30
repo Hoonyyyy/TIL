@@ -53,6 +53,8 @@
 - [forward, redirect 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/forward%20redirect%20%EC%B0%A8%EC%9D%B4.MD#forward-redirect-%EC%B0%A8%EC%9D%B4)
 - [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/JSP/%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt.MD#%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt)
 - [include, forward 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/include,%20forward%EC%B0%A8%EC%9D%B4.MD#include-forward%EC%B0%A8%EC%9D%B4md)
+- [statement와 prepareStatement의 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/statement%EC%99%80%20prepareStatement%20%EC%B0%A8%EC%9D%B4.MD#preparestatement%EC%99%80-statement%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+
 
 # SPRING
 - [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
