@@ -1,4 +1,4 @@
-## prepareStatement와 statement의 차이
+# prepareStatement와 statement의 차이
 
 둘의 차이를 알기전에 '캐시'를 먼저 알야아한다.
 
