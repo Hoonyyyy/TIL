@@ -54,6 +54,7 @@
 - [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/JSP/%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt.MD#%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt)
 - [include, forward 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/include,%20forward%EC%B0%A8%EC%9D%B4.MD#include-forward%EC%B0%A8%EC%9D%B4md)
 - [statement와 prepareStatement의 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/statement%EC%99%80%20prepareStatement%20%EC%B0%A8%EC%9D%B4.MD#preparestatement%EC%99%80-statement%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+- [JNDI](https://github.com/Hoonyyyy/TIL/blob/main/JSP/JNDI%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8.MD#jndi)
 
 
 # SPRING
