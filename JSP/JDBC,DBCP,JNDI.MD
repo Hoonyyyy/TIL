@@ -1,7 +1,6 @@
 # JDBC,DBCP,JNDI
 
-보고 정리하기
-
+보고 정리해보기
 
 https://velog.io/@chancehee/JDBC-DBCP-JNDI
 
