@@ -48,7 +48,11 @@ public class ComputerUser {
 
 ### 스프링 컨테이너 종류
 
-
+- BeanFactory
+```
+	
+ㅇ
+```
 
 
 
