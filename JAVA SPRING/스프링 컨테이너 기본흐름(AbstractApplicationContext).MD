@@ -1,40 +1,5 @@
 # 스프링 컨테이너 기본흐름(AbstractApplicationContext).MD
 
-```java
-package study2;
-
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.GenericXmlApplicationContext;
-
-public class ComputerUser {
-	
-	public static void main(String[] args) {
-		
-		AbstractApplicationContext aac
-			= new GenericXmlApplicationContext("applicationContext2.xml");
-		
-		Computer cp = (Computer)aac.getBean("samsung");
-		
-		cp.buyComputer();
-		cp.monitorChoice();
-		cp.speakerChoice();
-		cp.sellComputer();
-		
-		System.out.println("----------------------------");
-		
-		
-		Computer cp2 = (Computer)aac.getBean("lg");
-		
-		cp2.buyComputer();
-		cp2.monitorChoice();
-		cp2.speakerChoice();
-		cp2.sellComputer();
-		
-	}
-	
-}
-```
-
 ## 객체(클래스 생성) -> bean 생성 -> AbstractApplication Context으로 bean 가져오기
 
 - 스프링은 객체를 생성하고 각각의 객체를 연결해주는 조립기 역할을 함
