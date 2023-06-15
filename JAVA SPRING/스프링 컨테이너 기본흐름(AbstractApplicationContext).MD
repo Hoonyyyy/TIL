@@ -1,6 +1,6 @@
 # 스프링 컨테이너 기본흐름(AbstractApplicationContext).MD
 
-```spring
+```
 package study2;
 
 import org.springframework.context.support.AbstractApplicationContext;
