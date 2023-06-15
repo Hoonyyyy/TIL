@@ -56,7 +56,7 @@ public class ComputerUser {
 ```
 - AbstractApplicationContext
 ```
-	컨테이너 종료(close)와 같은 기능을 제공해 주는객체
+컨테이너 종료(close)와 같은 기능을 제공해 주는객체
 ```
 
 - GenericXmlApplicationContext
