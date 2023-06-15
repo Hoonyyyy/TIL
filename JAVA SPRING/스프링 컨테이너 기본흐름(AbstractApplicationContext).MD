@@ -50,9 +50,9 @@ public class ComputerUser {
 
 - BeanFactory
 ```
-	스프링은 단순한 DI를 위한것이 아니라 (트랜잭션, 자바 코드 기반 스프링 설정, 어노테이션 이용한 빈설정
-	, 스프링을 이용한 웹 개발 등
-	을 이용하기 위해서인데 부가적인 기능을 사용하기 위해서는 보통 ApplicationContext를 사용함	
+스프링은 단순한 DI를 위한것이 아니라 (트랜잭션, 자바 코드 기반 스프링 설정, 어노테이션 이용한 빈설정
+, 스프링을 이용한 웹 개발 등
+을 이용하기 위해서인데 부가적인 기능을 사용하기 위해서는 보통 ApplicationContext를 사용함	
 ```
 - AbstractApplicationContext
 ```
@@ -61,18 +61,18 @@ public class ComputerUser {
 
 - GenericXmlApplicationContext
 ```
-	AbstractApplicationContext 객체를 상속 받아 만드는 클래스. xml 파일에서 스프링 빈 설정 정보를 
-	읽어오는 역할.
-	
-	GenericXmlApplicationContext 객체를 생성할 때 파라미터 값으로 xml의 경로를 전달하여 설정 파일로 사용함.
-	
-	GenericXmlApplicationContext 객체는 전달받은 xml 파일에서 설정 정보를 읽어와서 스프링 빈 객체를
-	생성하고 프로퍼티 값을 설정함.
-	
-	생성된 스프링 빈 객체는 getBean() 이라는 메서드를 사용해서 구현함.
-	
-  	getBean() 메서드의 첫번쨰 파라미터는 구현하고자 하는 스프링 빈 객체의 고유한 id이름이며,
-	두번째 파라미터는 그 객체의 타입을 의미함.
+AbstractApplicationContext 객체를 상속 받아 만드는 클래스. xml 파일에서 스프링 빈 설정 정보를 
+읽어오는 역할.
+
+GenericXmlApplicationContext 객체를 생성할 때 파라미터 값으로 xml의 경로를 전달하여 설정 파일로 사용함.
+
+GenericXmlApplicationContext 객체는 전달받은 xml 파일에서 설정 정보를 읽어와서 스프링 빈 객체를
+생성하고 프로퍼티 값을 설정함.
+
+생성된 스프링 빈 객체는 getBean() 이라는 메서드를 사용해서 구현함.
+
+getBean() 메서드의 첫번쨰 파라미터는 구현하고자 하는 스프링 빈 객체의 고유한 id이름이며,
+두번째 파라미터는 그 객체의 타입을 의미함.
 ```
 
 ### AbstractApplicationContext (실행페이지)
