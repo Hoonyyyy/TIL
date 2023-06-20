@@ -81,6 +81,31 @@
 				. around
 
  -->
+
+	JoinPoint인터페이스
+		;	횡단관심에 해당하는 어드바이스(공통코드)메소드를 잘 구현하려면
+			클라이언트가 요청한 비즈니스 메서드의 정보를 알아야 한다.
+				. 예외가 발생하면 버즈니스 메서드 이름이?
+				. 그 메서드가 속한 클래스와 패ㅔ키지 정보?
+				등, 이러한 정보를 이용할 수 있는 스프링은 JointPoint인터페이스를 제공한다.
+		
+		. Signature getSignature()
+		. Object	getTarget()
+		. Object	getArgs()
+		
+		Signature객체
+			. String getName()
+			. String toLongString()
+			. String toShortString()
+			
+	JointPoint객체생성과정
+		- 사용자 요청 > 스프링컨테이너가 호출과 관련정보를 담은 JoinPoint객체를 생성
+			> 스프링컨테이너가 applicationContext.xml에 설정되어 있는 method를 호출할때 이 객체를 인자로 넘겨준다.
+			
+	동작에 따른 활용
+		- Before, After들 어드바이스는 모두 - JoinPoint를 사용
+		- Around어드바이스는 ProceedingJoinPoint를 사용해야 한다.
+
 ```
 
 
