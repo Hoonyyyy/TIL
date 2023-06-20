@@ -26,6 +26,8 @@
 
 
 ```
+
+
 <!-- 
 	AOP용어 및 기본설정
 		1. 조인트 포인트(Jointpoint)
@@ -97,9 +99,9 @@
 			- 클라이언트가 메서드를 호출할때 넘겨준 인자목록
 		
 		Signature객체
-			. String getName()
-			. String toLongString()
-			. String toShortString()
+			. String getName()			: 클라이언트가 요청한 메서드이름 리턴
+			. String toLongString()		: 클라이언트가 호출한 리턴타입, 메서드이름, 매개변수를 패키지경로까지 포함 리턴 
+			. String toShortString()	: 호출한 메서드 시그니처를 축약한 문자열로 리턴
 			
 	JointPoint객체생성과정
 		- 사용자 요청 > 스프링컨테이너가 호출과 관련정보를 담은 JoinPoint객체를 생성
@@ -108,6 +110,20 @@
 	동작에 따른 활용
 		- Before, After들 어드바이스는 모두 - JoinPoint를 사용
 		- Around어드바이스는 ProceedingJoinPoint를 사용해야 한다.
+
+	JoinPoint
+		|
+	ProceedingJoinPoint
+		- proceed() 추가	>> around에서 사용
+											| beofre
+	사용자 ----- > 메서드호출 ----- > proceed()
+											| after
+
+	/* 
+		@Before("~~()")
+		@AfterReturning(),@Afterthrowing(""), @After()
+		@Around() - 호출자체를 가로채서 비즈니스 메서드 실행 전후에 처리할 로직을 삽입한다.
+	 */
 
 ```
 
