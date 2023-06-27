@@ -230,7 +230,7 @@ public class AfterThrowingJoinPoint {
 ### 오류처리
 - 0번은 등록할수 없을때 오류처리
 
-```
+```java
 package com.mycompany.biz.user;
 
 import java.util.ArrayList;
