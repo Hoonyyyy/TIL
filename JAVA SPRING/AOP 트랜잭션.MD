@@ -32,12 +32,111 @@
 ### @Transaction
 - 장점 : 특별한 설정없이 쉽게 사용, 원하는 곳에서만 사용
 - 단점 : 어노테이션 누락되거나 여러 메서드에 걸쳐 사용시 적용 안될수도 있음, 외부 라이브러리 x
+```java
+@Service
+@Transactional
+public class BoardServiceImpl implements BoardService {
+
+    @Autowired
+    private BoardMapper boardMapper;
+    
+    @Override
+    public BoardDto selectBoardDetail(int boardIdx) throws Exception{
+        boardMapper.updateHitCount(boardIdx); // 조회수 올리기
+        int a = 10/0;
+        BoardDto board = boardMapper.selectBoardDetail(boardIdx); // 게시글 보여주기
+
+        return board;
+    }
+
+}
+```
 
 ### AOP 이용한 트랜잭션
 - 장점 : 공통으로 트랜잭션이 적용되기 때문에 트랜잭션이 누락될 일이 없다, 외부 라이브러리 o
 - 단점 : 원하는 곳에서만 트랜잭션 적용 힘듬 ->
 - 특정 비즈니스 로직에서는 에러 발생한 시점까지 데이터가 저장되어야 하는데, 이런 것까지 모두 rollback 됨
+``` java
+package com.example.board.board.aop;
 
+import org.springframework.aop.Advisor;
+import org.springframework.aop.aspectj.AspectJExpressionPointcut;
+import org.springframework.aop.support.DefaultPointcutAdvisor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.interceptor.MatchAlwaysTransactionAttributeSource;
+import org.springframework.transaction.interceptor.RollbackRuleAttribute;
+import org.springframework.transaction.interceptor.RuleBasedTransactionAttribute;
+import org.springframework.transaction.interceptor.TransactionInterceptor;
+
+import java.util.Collections;
+
+@Configuration
+public class TransactionAspect {
+
+    private static final String AOP_TRANSACTION_METHOD_NAME="*";
+    private static final String AOP_TRANSACTION_EXPRESSION="execution(* board.service.*Impl.*(..))";
+
+    @Autowired
+    private PlatformTransactionManager transactionManager;
+
+    @Bean
+    public TransactionInterceptor transactionAdvice(){
+        MatchAlwaysTransactionAttributeSource source = new MatchAlwaysTransactionAttributeSource();
+        RuleBasedTransactionAttribute transactionAttribute = new RuleBasedTransactionAttribute();
+        transactionAttribute.setName(AOP_TRANSACTION_METHOD_NAME);
+        transactionAttribute.setRollbackRules(Collections.singletonList(new RollbackRuleAttribute(Exception.class)));
+        source.setTransactionAttribute(transactionAttribute);
+
+        return new TransactionInterceptor(transactionManager, source);
+    }
+
+    @Bean
+    public Advisor transactionAdviceAdvisor(){
+        AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
+        pointcut.setExpression(AOP_TRANSACTION_EXPRESSION);
+        return new DefaultPointcutAdvisor(pointcut, transactionAdvice());
+    }
+}
+```
+
+### 다른 aop 예시는 xml로
+```xml
+	<context:component-scan base-package="com.mycompany.biz" />
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	
+	<context:property-placeholder location="classpath:config/database.properties" />
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	
+
+	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> 
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+	<tx:advice id="txAdvice" transaction-manager="txManager"> 
+		<tx:attributes>
+			<tx:method name="get*" read-only="true"/>  
+			<tx:method name="*"/> 
+		</tx:attributes>
+	</tx:advice>
+	
+	<aop:config>
+		<aop:pointcut id="txPointcut" expression="execution(* com.mycompany.biz..*.*(..))"/>
+		<aop:advisor  pointcut-ref="txPointcut"  advice-ref="txAdvice"/> 
+```
 
 
 
