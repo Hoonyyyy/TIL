@@ -76,6 +76,9 @@
 - [PROCEDURE](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/PROCEDURE.MD#proceduremd)
 - [trigger & tranaction](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/transaction%20&%20trigger.MD#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%B0%8F-%ED%8A%B8%EB%A6%AC%EA%B1%B0md)
 
+## Mybatis
+- [기본](https://github.com/Hoonyyyy/TIL/blob/main/Mybatis/%EA%B8%B0%EB%B3%B8.MD#%EA%B8%B0%EB%B3%B8)
+
 # 혼자 생각해본것
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
 - [생각해본것](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8%EA%B2%83.MD)
