@@ -70,6 +70,9 @@
 ## Mybatis
 - [기본](https://github.com/Hoonyyyy/TIL/blob/main/Mybatis/%EA%B8%B0%EB%B3%B8.MD#%EA%B8%B0%EB%B3%B8)
 
+## Hibernate
+- [JPA개념 기본](https://github.com/Hoonyyyy/TIL/blob/main/Hibernate/JPA%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%A6%AC.MD#jpa)
+
 # SQL
 ## mysql
 - [기본](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EA%B8%B0%EB%B3%B8%20%EC%A0%95%EB%A6%AC.MD#%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%A6%AC)
