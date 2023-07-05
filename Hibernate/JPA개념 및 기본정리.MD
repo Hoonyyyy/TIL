@@ -35,5 +35,9 @@ DB 연동 기술을 사용할 때 SQL 명령어를 XML 파일에 작성해야 �
 
 ## JDBC와 JPA 공통점
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbaCz4X%2FbtrjLkfh8pW%2FBaDvkKE3Yn8lUX9IkAB3w1%2Fimg.png)
+```
+JPA(Java Persistence API)는 모든 ORM 구현체들의 공통 인터페이스를 제공함
 
+JDBC는 DB 연동 로직을 구현할 떄, JDBC API의 인터페이스들을 이용하면 실질적인 DB 연동 처리는 해당 DBMS의 드라이버 클래스들이 담당
+```
 
