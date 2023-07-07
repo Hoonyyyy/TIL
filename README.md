@@ -66,6 +66,7 @@
 - [AOP 설명](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/AOP%EC%9A%A9%EC%96%B4%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95.MD#aop%EC%9A%A9%EC%96%B4-%EB%B0%8F-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95)
 - [Model, ModelAndView 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Model,%20ModelAndView%20%EC%B0%A8%EC%9D%B4.MD#model-modelandview-%EC%B0%A8%EC%9D%B4)
 - [@Controller, @RequestMapping](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/@Controller,%20@Requestmapping.MD#controller-requestmapping)
+- [어노테이션 정리](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%A0%95%EB%A6%AC.MD#%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98-%EC%A0%95%EB%A6%AC)
 
 ## Mybatis
 - [기본](https://github.com/Hoonyyyy/TIL/blob/main/Mybatis/%EA%B8%B0%EB%B3%B8.MD#%EA%B8%B0%EB%B3%B8)
