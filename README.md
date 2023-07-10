@@ -52,36 +52,7 @@
 # JSP
 - [Model1,2](https://github.com/Hoonyyyy/TIL/blob/main/JSP/Model1%2C2%2CMVC.MD#model12mvc)
 - [forward, redirect 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/forward%20redirect%20%EC%B0%A8%EC%9D%B4.MD#forward-redirect-%EC%B0%A8%EC%9D%B4)
-- [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/JSP/%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt.MD#%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt)
-- [include, forward 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/include,%20forward%EC%B0%A8%EC%9D%B4.MD#include-forward%EC%B0%A8%EC%9D%B4md)
-- [statement와 prepareStatement의 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/statement%EC%99%80%20prepareStatement%20%EC%B0%A8%EC%9D%B4.MD#preparestatement%EC%99%80-statement%EC%9D%98-%EC%B0%A8%EC%9D%B4)
-- [JDBC,DBCP,JNDI](https://github.com/Hoonyyyy/TIL/blob/main/JSP/JDBC%2CDBCP%2CJNDI.MD#jdbcdbcpjndi)
-- [JNDI](https://github.com/Hoonyyyy/TIL/blob/main/JSP/JNDI%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8.MD#jndi)
-
-
-
-# SPRING
-- [SPRING 단축키 모음](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%8B%A8%EC%B6%95%ED%82%A4%20%EB%AA%A8%EC%9D%8C.MD)
-- [Spring Container 기본흐름(AbstractApplicationContext)](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84(AbstractApplicationContext).MD#%EC%8A%A4%ED%94%84%EB%A7%81-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84abstractapplicationcontextmd)
-- [AOP 설명](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/AOP%EC%9A%A9%EC%96%B4%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95.MD#aop%EC%9A%A9%EC%96%B4-%EB%B0%8F-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95)
-- [Model, ModelAndView 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Model,%20ModelAndView%20%EC%B0%A8%EC%9D%B4.MD#model-modelandview-%EC%B0%A8%EC%9D%B4)
-- [@Controller, @RequestMapping](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/@Controller,%20@Requestmapping.MD#controller-requestmapping)
-- [어노테이션 정리](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%A0%95%EB%A6%AC.MD#%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98-%EC%A0%95%EB%A6%AC)
-
-## Mybatis
-- [기본](https://github.com/Hoonyyyy/TIL/blob/main/Mybatis/%EA%B8%B0%EB%B3%B8.MD#%EA%B8%B0%EB%B3%B8)
-
-## Hibernate
-- [JPA개념 기본](https://github.com/Hoonyyyy/TIL/blob/main/Hibernate/JPA%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%A6%AC.MD#jpa)
-
-# SQL
-## mysql
-- [기본](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EA%B8%B0%EB%B3%B8%20%EC%A0%95%EB%A6%AC.MD#%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%A6%AC)
-- [EXISTS](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/EXISTS%20%EC%97%B0%EC%82%B0%EC%9E%90.MD#exists-%EC%97%B0%EC%82%B0%EC%9E%90)
-- [내장함수](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98.MD#%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98md)
-- [view](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/view.MD#view)
-- [PROCEDURE](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/PROCEDURE.MD#proceduremd)
-- [trigger & tranaction](https://github.com/Hoonyyyy/TIL/blob/main/MYSQL/transaction%20&%20trigger.MD#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%B0%8F-%ED%8A%B8%EB%A6%AC%EA%B1%B0md)
+- [쿠키,세션,토큰,jwt](https://본](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.MD#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%8A%B9%EC%A7%95)
 
 # 혼자 생각해본것
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
