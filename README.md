@@ -54,6 +54,11 @@
 - [forward, redirect 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/forward%20redirect%20%EC%B0%A8%EC%9D%B4.MD#forward-redirect-%EC%B0%A8%EC%9D%B4)
 - [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.MD#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%8A%B9%EC%A7%95)
 
+# Android
+- [안드로이드 기본](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.MD#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%8A%B9%EC%A7%95)
+
+
+
 # 혼자 생각해본것
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
 - [생각해본것](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8%EA%B2%83.MD)
