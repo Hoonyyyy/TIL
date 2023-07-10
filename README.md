@@ -52,7 +52,7 @@
 # JSP
 - [Model1,2](https://github.com/Hoonyyyy/TIL/blob/main/JSP/Model1%2C2%2CMVC.MD#model12mvc)
 - [forward, redirect 차이](https://github.com/Hoonyyyy/TIL/blob/main/JSP/forward%20redirect%20%EC%B0%A8%EC%9D%B4.MD#forward-redirect-%EC%B0%A8%EC%9D%B4)
-- [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.MD#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%8A%B9%EC%A7%95)
+- [쿠키,세션,토큰,jwt](https://github.com/Hoonyyyy/TIL/blob/main/JSP/%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt.MD#%EC%BF%A0%ED%82%A4%EC%84%B8%EC%85%98%ED%86%A0%ED%81%B0jwt)
 
 # Android
 - [안드로이드 기본](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.MD#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%8A%B9%EC%A7%95)
