@@ -1,4 +1,4 @@
-# 스프링 컨테이너 기본흐름(AbstractApplicationContext).MD
+# 스프링 컨테이너 기본흐름(AbstractApplicationContext)
 
 ## 객체(클래스 생성) -> bean 생성 -> AbstractApplication Context으로 bean 가져오기
 
