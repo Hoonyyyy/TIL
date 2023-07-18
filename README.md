@@ -74,6 +74,7 @@
 
 ## Kotlin
 - [코틀린 기본문법](https://github.com/Hoonyyyy/TIL/blob/main/Android/%EC%BD%94%ED%8B%80%EB%A6%B0%20%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95.MD#%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95)
+- [Layout 종류](https://github.com/Hoonyyyy/TIL/blob/main/Android/Layout%20%EC%A2%85%EB%A5%98.MD#layout)
 
 
 # 혼자 생각해본것
