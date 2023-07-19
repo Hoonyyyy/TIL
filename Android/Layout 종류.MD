@@ -36,6 +36,18 @@ layout_alignParentTop = "true"
 stretchColumns = "*" 모두 같은 크기로 확장 전체에 채움
 ```
 
+## GridLayout
+```
+    GridLayout
+        . rowCOunt : 행의 갯수
+        . columnCount : 열의 갯수
+        . layout_row : 행의 배치위치
+        . layout_column : 열의 배치위치
+
+        . layout_rowSpan:
+        . layout_columnSpan
+        . layout_gravity = "fill_vertical" / "fill_horizontal"
+```
 
 
 
