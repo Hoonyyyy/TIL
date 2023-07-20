@@ -14,6 +14,7 @@
 - [staic변수와 static메서드](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/static%EB%B3%80%EC%88%98%EC%99%80%20static%EB%A9%94%EC%84%9C%EB%93%9C.MD#static-%EB%B3%80%EC%88%98%EC%99%80-static-%EB%A9%94%EC%84%9C%EB%93%9C)
 - [list와 ArrayList차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/List%EC%99%80%20ArrayList%EC%B0%A8%EC%9D%B4.MD#list%EC%99%80-arraylist-%EC%B0%A8%EC%9D%B4)
 - [클래스, 메서드, 인스턴스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EB%A9%94%EC%84%9C%EB%93%9C%2C%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%A0%95%EB%A6%AC.MD#%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4)
+- [업캐스팅, 다운캐스팅](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%97%85%EC%BA%90%EC%8A%A4%ED%8C%85%2C%20%EB%8B%A4%EC%9A%B4%EC%BA%90%EC%8A%A4%ED%8C%85.MD#%EC%97%85%EC%BA%90%EC%8A%A4%ED%8C%85-%EB%8B%A4%EC%9A%B4%EC%BA%90%EC%8A%A4%ED%8C%85)
 
 # Spring
 - [스프링 컨테이너 기본흐름(AbstractApplicationContext)](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84(AbstractApplicationContext).MD#%EC%8A%A4%ED%94%84%EB%A7%81-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84abstractapplicationcontextmd)
