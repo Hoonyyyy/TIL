@@ -81,6 +81,9 @@
 - [Layout 종류](https://github.com/Hoonyyyy/TIL/blob/main/Android/Layout%20%EC%A2%85%EB%A5%98.MD#layout)
 
 
+# 코드 외
+- [URI, URL, URN]()
+
 # 혼자 생각
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
 - [생각해본것](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B8%EA%B2%83.MD)
