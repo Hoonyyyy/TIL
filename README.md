@@ -82,7 +82,7 @@
 
 
 # 코드 외
-- [URI, URL, URN]()
+- [URI, URL, URN](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/URI%2C%20URL%2C%20URN.MD#uri-url-urn)
 
 # 혼자 생각
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
