@@ -1,4 +1,4 @@
-# Rest API
+# Rest API, @Controlloer, @RestController
 
 ### Rest (Representational State Transfer)
 - HTTP URI를 통해 리소스를 명시하고 HTTP Method(GET, POST, DELETE, PUT)을 사용하여 리소스에 대한 행위 표현
