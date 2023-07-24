@@ -68,7 +68,7 @@ HandlerExecutionChain으로 감싸서 반환한다. HandlerExecutionChain으로 
 ```
 
 ### 4. 핸들러 어댑터가 컨트롤러로 요청을 위임 함
-- [직렬화](https://lynmp.com)
+- [직렬화](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%A7%81%EB%A0%AC%ED%99%94.MD#%EC%A7%81%EB%A0%AC%ED%99%94)
 - [리플렉션](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98(reflection).MD#%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98reflection)
 ```
 핸들러 어댑터가 컨트롤러로 요청을 위임한 전/후에 공통적인 전/후 처리 과정이 필요하다.
