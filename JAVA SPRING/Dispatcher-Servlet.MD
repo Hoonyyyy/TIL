@@ -73,7 +73,7 @@ HandlerExecutionChain으로 감싸서 반환한다. HandlerExecutionChain으로 
 ```
 핸들러 어댑터가 컨트롤러로 요청을 위임한 전/후에 공통적인 전/후 처리 과정이 필요하다.
 대표적인 인터셉터들을 포함해 요청 시에 @RequstParam, @requestBody 등을 처리하기 위한 ArgumnetResolver들과 응답 시에
-ResponseEntity의 Body를 Json으로 [직렬화](ddf.com)한 등의 처리를 하는 ReturnValueHandler 등이 핸들러 어댑터에서 처리된다.
+ResponseEntity의 Body를 Json으로 직렬화한 등의 처리를 하는 ReturnValueHandler 등이 핸들러 어댑터에서 처리된다.
 ArgumentResolver 등을 통해 파라미터가 준비되면 리플렉션 이용해 컨트롤러로 요청을 위임함.
 ```
 
