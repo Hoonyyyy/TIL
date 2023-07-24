@@ -73,7 +73,17 @@ public class PostController {
 - 생성자 인자에 사용하는 빈을 찾거나 만듦
 - 주입하려는 빈 객체의 수정자를 호출하여 주입
 ```java
+@RestController
+public class PostController {
+    private PostService postService;
 
+    @Autowired
+    private void setPostService(PostService postService){
+        this.postService = postService;
+
+    }
+
+}
 ```
 
 - Constructor Injection(생성자 주입) (추천!)
@@ -85,14 +95,17 @@ public class PostController {
 ```java
 @RestController
 public class PostController {
-
-    @Autowired
     private PostService postService;
 
+    @Autowired
+    public void PostController(PostService postService) {
+        this.postService = postService;
+    }
 }
 ```
 
 
-
+https://isoomni.tistory.com/entry/TISPRING-IOC-DI-%EC%A0%95%EC%9D%98-%EC%9E%A5%EC%A0%90
+https://marrrang.tistory.com/58
 
 
