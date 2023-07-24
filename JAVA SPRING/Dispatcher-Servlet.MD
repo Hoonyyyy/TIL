@@ -68,8 +68,7 @@ HandlerExecutionChain으로 감싸서 반환한다. HandlerExecutionChain으로 
 ```
 
 ### 핸들러 어댑터가 컨트롤러로 요청을 위임 함
-[LYNMP 홈페이지](https://lynmp.com)
-- [Google]: http://www.google.com  ㅇㄹㅇㄹ
+- [직렬화]: http://www.google.com
 
 ```
 핸들러 어댑터가 컨트롤러로 요청을 위임한 전/후에 공통적인 전/후 처리 과정이 필요하다.
@@ -87,6 +86,14 @@ ArgumentResolver
 
 ReturnValueHandler
 컨트롤러의 메서드가 실행된 후, 반환된 결과를 적절한 형태로 변환하여 클라이언트에게 응답으로 보내기 위한 처리를 담당한다.
-예를 들어, 커트롤러의 메서드가 ResponseEntity를 반환하는 경우, ResponseEntity의 
+예를 들어, 커트롤러의 메서드가 ResponseEntity를 반환하는 경우, ResponseEntity의 Body를 JSON으로 직렬화하여 클라이언트에게
+응답으로 전달하는 작업을 수행한다.
+
+리플렉션(Reflection)
+ArgumentResolver가 요청에서 추출한 파라미터를 컨트롤러의 메서드에 전달할 때, 리플렉션을 사용하여 메서드를 호출한다.
+리플렉션은 실행 시점에 클래스의 정보를 조사하고, 메서드를 호출하거나 필드에 접근하는 등의 작업을 수행할 수 있는 기능을 제공한다.
+
+요약
+
 
 ```
