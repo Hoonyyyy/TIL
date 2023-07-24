@@ -1,4 +1,4 @@
-# DI, IOC, AOP
+# DI, IOC
 
 
 ## IOC란?
