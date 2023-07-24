@@ -87,6 +87,7 @@ public class PostController {
 ```
 
 - Constructor Injection(생성자 주입) (추천!)
+- 객체가 생성되는 시점에 빈을 주입한다.
 - 생성자의 인자에 사용되는 빈을 찾거나빈 팩토리에서 만든다.
 - 찾은 인자 빈으로 주입하려는 생성자를 호출한다.
 - NullPointerException의 발생을 막는다 (객체가 생성되는 시점에 빈을 주입한다.)
