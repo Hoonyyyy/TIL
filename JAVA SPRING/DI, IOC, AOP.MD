@@ -49,11 +49,48 @@ A클래스 로직이 변경되어 B, C클래스로 보내는 객체가 변경된
 ```
 
 ### DI방식
+
+#### 필드, 수정자 방식은 런타임에서도 의존성을 주입하기 때문에 의존성을 주입하지 않아도 객체가 생성될 수 있따.
+
 - Field Injection(필드 주입)
+- 주입받으려는 빈의 생성자를 호출하여 빈을 찾거나 빈 팩토리에 등록
+- 생성자 인자에 사용하는 빈을 찾거나 만듦
+- 필드에 주입
+```java
+// Field Injection은 의존성을 주입하고 싶은 필드에 @Autowired 어노테이션을 붙여주면 의존성이 주입됨
+
+@RestController
+public class PostController {
+
+    @Autowired
+    private PostService postService;
+
+}
+```
+
+- Setter Injection(수정자 주입)
+- 주입받으려는 빈의 생성자를 호출하여 빈을 찾거나 빈 팩토리에 등록
+- 생성자 인자에 사용하는 빈을 찾거나 만듦
+- 주입하려는 빈 객체의 수정자를 호출하여 주입
 ```java
 
 ```
 
+- Constructor Injection(생성자 주입) (추천!)
+- 생성자의 인자에 사용되는 빈을 찾거나빈 팩토리에서 만든다.
+- 찾은 인자 빈으로 주입하려는 생성자를 호출한다.
+- NullPointerException의 발생을 막는다 (객체가 생성되는 시점에 빈을 주입한다.)
+- 불변성을 활용할 수 있다.(final로 선언 가능하다.)
+- SRP(단일 책임 원칙)을 지킬 수 있도록 유도한다. 
+```java
+@RestController
+public class PostController {
+
+    @Autowired
+    private PostService postService;
+
+}
+```
 
 
 
