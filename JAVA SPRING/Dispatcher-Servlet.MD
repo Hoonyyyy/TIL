@@ -69,6 +69,7 @@ HandlerExecutionChain으로 감싸서 반환한다. HandlerExecutionChain으로 
 
 ### 핸들러 어댑터가 컨트롤러로 요청을 위임 함
 [직렬화](https://lynmp.com)
+[리플렉션](https://lynmp.com)
 ```
 핸들러 어댑터가 컨트롤러로 요청을 위임한 전/후에 공통적인 전/후 처리 과정이 필요하다.
 대표적인 인터셉터들을 포함해 요청 시에 @RequstParam, @requestBody 등을 처리하기 위한 ArgumnetResolver들과 응답 시에
