@@ -61,7 +61,18 @@ WAS는 기본적으로 동적 컨텐츠를 제공하기 위해 존재하는 서�
 
 ## Web Service Architecture
 <img src="https://gmlwjd9405.github.io/images/web/web-service-architecture.png">
-- 
+- Web Server는 웹 브라우저 클라이언트로부터 HTTP 요청 받음
+- Web Server는 클라이언트 요청(Request)을 WAS에 보냄
+- WAS는 관련된 Servlet을 메모리에 올림
+- WAS는 web.xml을 참조하여 Servlet에 대한 Thread를 생성함 (Thread Pool 이용)
+- HttpServletRequest와 HttpServletResponse객체를 생성하여 Servlet에 전달
+  - .Thread는 Servlet의 service() 메서드를 호출함
+  - .service() 메서드는 요청에 맞게 doGet() 또는 doPost() 메서드를 호출함
+  - protected doGet(HttpServletRequest request, HttpServletResponse response)
+- doGet() 또는 doPost() 메서드는 인자에 맞게 생성된 적절한 동적 페이지를 Response 객체에 담아 WAS에 전달
+- WAS는 Response 객체를 HttpResponse 형태로 바꾸어 Web Server에 전달함
+- 생성된 Thread를 종료하고, HttpServletRequest와 HttpServletResponse 객체를 제거함
+
 
 
 
