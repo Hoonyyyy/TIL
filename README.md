@@ -32,7 +32,6 @@
 - [@Controller, @RestControlloer](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Rest%20API%2C%20%40Controlloer%2C%20%40RestController.MD#rest-api-controlloer-restcontroller)
 - [Dispatcher-servlet](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Dispatcher-Servlet.MD#dispatcher-servlet)
 - [@RestController,@Controller](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Rest%20API%2C%20%40Controlloer%2C%20%40RestController.MD#rest-api-controlloer-restcontroller)
-- [Websocket](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Websocket.MD#websocket)
 - [presentation-layer, business-layer](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Presentation%20Layer%2C%20Business%20Layer%2C%20Listener.MD#presentation-layer-business-layer)
 
 
