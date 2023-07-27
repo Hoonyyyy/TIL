@@ -5,7 +5,7 @@
 ## Page
 - 페이지 내에서 지역변수처럼 사용
 
-### Page Scope
+#### Page Scope
 - PageContext 추상 클래스를 사용
 - JSP 페이지에서 pageContext라는 내장 객체로 사용 가능
 
