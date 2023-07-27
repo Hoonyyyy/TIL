@@ -61,8 +61,7 @@ WAS는 기본적으로 동적 컨텐츠를 제공하기 위해 존재하는 서�
 
 ## Web Service Architecture
 <img src="https://gmlwjd9405.github.io/images/web/web-service-architecture.png">
-1. df
-2. df
+- 
 
 
 
