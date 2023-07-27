@@ -54,10 +54,15 @@ WAS는 기본적으로 동적 컨텐츠를 제공하기 위해 존재하는 서�
 페이지 노출시간 늘어남
 ```
 - 물리적으로 분리하여 보안강화
+  - SSL에 대한 암복호화 처리에 Web Server를 사용
+- 여러 대의 WAS를 연결 가능
+- 자원 이용의 효율성 및 장애 극복, 배포 및 유지보수의 편의성을 위해 Web Server와 WAS를 분리함
 
 
-
-
+## Web Service Architecture
+<img src="https://gmlwjd9405.github.io/images/web/web-service-architecture.png">
+1. df
+2. df
 
 
 
