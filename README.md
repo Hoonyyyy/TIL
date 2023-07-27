@@ -94,6 +94,7 @@
 
 # 코드 외
 - [URI, URL, URN](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/URI%2C%20URL%2C%20URN.MD#uri-url-urn)
+- [Web Server와 WAS 차이](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/Web%20Server%EC%99%80%20WAS%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD#web-server%EC%99%80-was%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 
 # 혼자 생각
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
