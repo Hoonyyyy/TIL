@@ -31,7 +31,7 @@
 ### Join point
 - 프로그램의 실행 내부에서 Advice(부가기능)가 적용될 수 있는 지점 메서드!!!
 
-### weaving
+### weaving(직조)
 - Advice를 핵심 로직 코드에 적용하는 것
 
 
