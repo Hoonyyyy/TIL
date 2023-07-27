@@ -13,3 +13,4 @@
 - ServiceImpl 클래스는 실질적인 비즈니스 로직을 처리함
 - DAO 클래스는 실질적인 데이터 베이스 연동을 담당한다.
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbylxl5%2FbtrVVQ3cPit%2FfMMcWCLcwMKXqaYeK3Z920%2Fimg.jpg">
