@@ -61,6 +61,7 @@ WAS는 기본적으로 동적 컨텐츠를 제공하기 위해 존재하는 서�
 
 ## Web Service Architecture
 <img src="https://gmlwjd9405.github.io/images/web/web-service-architecture.png">
+
 - Web Server는 웹 브라우저 클라이언트로부터 HTTP 요청 받음
 - Web Server는 클라이언트 요청(Request)을 WAS에 보냄
 - WAS는 관련된 Servlet을 메모리에 올림
