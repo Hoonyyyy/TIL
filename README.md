@@ -2,7 +2,6 @@
 - [식별자 작성 규칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8B%9D%EB%B3%84%EC%9E%90%20%EC%9E%91%EC%84%B1%20%EA%B7%9C%EC%B9%99.MD#%EC%8B%9D%EB%B3%84%EC%9E%90-%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99)
 - [API 구성](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/API%20%EA%B5%AC%EC%84%B1.MD#api-%EA%B5%AC%EC%84%B1)
 - [System 클래스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/System%20%ED%81%B4%EB%9E%98%EC%8A%A4.MD#system-%ED%81%B4%EB%9E%98%EC%8A%A4)
-- [클래스작성 규칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%9E%91%EC%84%B1%EA%B7%9C%EC%B9%99.MD#%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9E%91%EC%84%B1%EC%9D%98-%EC%9B%90%EC%B9%99solid)
 - [JVM](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/JVM.MD#jvmjava-virtual-machine)
 - [interface인터페이스](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.MD#interface)
 - [컴파일런타임에러](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/compile%20runtime%20error.MD#run-time-compile-time)
@@ -33,6 +32,7 @@
 - [Dispatcher-servlet](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Dispatcher-Servlet.MD#dispatcher-servlet)
 - [@RestController,@Controller](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Rest%20API%2C%20%40Controlloer%2C%20%40RestController.MD#rest-api-controlloer-restcontroller)
 - [presentation-layer, business-layer](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Presentation%20Layer%2C%20Business%20Layer%2C%20Listener.MD#presentation-layer-business-layer)
+- [spring 5대 원칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%9E%91%EC%84%B1%EA%B7%9C%EC%B9%99.MD#%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9E%91%EC%84%B1%EC%9D%98-%EC%9B%90%EC%B9%99solid)
 
 
 ## Mybatis
