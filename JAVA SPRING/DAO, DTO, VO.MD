@@ -8,6 +8,7 @@
 
 
 ### DTO (Data Transfer ObjecT)
+#### Layer간 통신 용도로 오고가는 객체(getter, setter)
 - 계층 간 데이터 교환을 하기 위해 사용하는 객체
 - 로직을 가지지 않는 순수한 데이터 객체(Java Beans)
 - getter/setter 메서드만 가진 클래스를 의미함
@@ -15,6 +16,7 @@
 - 즉 엔티티를 DTO 형태로 변환 후 사용함
 
 ### VO(value Object)
+#### 특정한 비즈니스 값을 담는 객체(VO)
 - DTO와 달리 Read-Only 속성을 지닌 값 오브젝트입니다.
 - DTO는 setter를 가지고 있어서 값이 변할 수 있지만,
 - VO의 경우에는 getter만 가지고 있어 수정이 불가능하다.
@@ -37,5 +39,5 @@ VO는 값들에 대해 Read-Only를 보장해줘야 존재의 신뢰성이 확�
 |VO|값 자체를 표현|값 자체를 표현|불변|getter/setter 이외의 로직을 가질 수 있음|
 
 
-
+https://kbwplace.tistory.com/162
 
