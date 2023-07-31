@@ -62,6 +62,21 @@ public class Main {
 }
 ```
 
+### 하나 더 예시
+``` java
+public class Test2 {
+    public static void main(String[] args) {
+        Integer a = 4;
+        someOperation(a);
+        System.out.println(a);
+
+    }
+    private static void someOperation(Integer param){
+        param += 10;
+    }
+}
+```
+
 
 # 막간을 이용한 int와 Integer의 차이
 - int : 변수의 타입(data type)
