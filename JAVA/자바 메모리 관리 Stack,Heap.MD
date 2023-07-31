@@ -63,6 +63,11 @@ public class Main {
 ```
 
 
+# 막간을 이용한 int와 Integer의 차이
+- int : 변수의 타입(data type)
+- Integer : 기본형을 객체로 다루기 위해 사용하는 클래스(wraaper class)
+- Integer는 int의 레퍼클래스임
+
 
 
 https://yaboong.github.io/java/2018/05/26/java-memory-management/
