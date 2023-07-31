@@ -18,7 +18,8 @@ ex. foo() 함수에서 bar() 함수 호출하고 bar() 함수의 종료되는 �
 
 ```
 
-### Stack 간단 코드
+### Stack 간단 코드 ( 그림은 아래 출처 참조하기 )
+- 6 나
 ``` java
 package test;
 
@@ -34,6 +35,34 @@ public class Test2 {
     }
 }
 ```
+
+## Heap
+- 긴 생명주기를 가진 데이터들이 저장됨(대부분의 오브젝트는 크기가 크고, 서로 다른 코드블럭에서 공우되는 경우가 많음)
+- 애플리케이션의 모든 메모리 중 stack에 있는 데이터를 제외한 부분
+- 모든 Object타입 (Integer, String, ArrayList, ...)은 heap 영역에 생성됨
+- 몇개의 스레드가 존재하든 상관없이 단 하나의 heap영역만 존재함
+- Heap 영역에 있는 오브젝트들을 가르키는 레퍼런스 변수가 stack에 올라감
+
+### println값이 hello world가 아닌 hello가 나온 이유
+- main() 메서드의 s 변수가 참조하는 "hello" 오브젝트를 param에 복사하면서 changeString() 메서드가 시작
+- param += "world"; 를 실행하는 것은 heap에 "hello world"라는 스트링 오브젝트가 새롭게 할당되는 작업임
+- 기존에 "hello" 오브젝트를 참조하고 있던 param으로 새롭게 생성된 스트링 오브젝트인 "hello world"를 참조하도록 만드는것
+- changeString() 함수가 종료되면, 새롭게 생성된 "hello world" 오브젝트를 참조하는 param이라는 변수는 스택에서 pop 되므로 어느것도 레퍼런스 안한 상태 됨
+- "hello world" 오브젝트는 garbage로 분류됨
+``` java
+public class Main {
+    public static void main(String[] args) {
+        String s = "hello";
+        changeString(s);
+        System.out.println(s);
+    }
+    public static void changeString(String param) {
+        param += " world";
+    }
+}
+```
+
+
 
 
 https://yaboong.github.io/java/2018/05/26/java-memory-management/
