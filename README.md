@@ -7,6 +7,7 @@
 - [컴파일런타임에러](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/compile%20runtime%20error.MD#run-time-compile-time)
 - [extend와 implement의 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/extend%EC%99%80%20implements%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD#%EC%B0%A8%EC%9D%B4)
 - [스레드 및 동기화&비동기화](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/Thread%2C%20%EB%8F%99%EA%B8%B0%20%EB%B0%8F%20%EB%B9%84%EB%8F%99%EA%B8%B0%ED%99%94.MD#thread)
+- [스레드의 개념, 프로세서](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8A%A4%EB%A0%88%EB%93%9C%20%EA%B0%9C%EB%85%90,%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.MD#%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B0%9C%EB%85%90-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 - [싱글톤singleton](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%8B%B1%EA%B8%80%ED%86%A4Singleton.MD#%EC%8B%B1%EA%B8%80%ED%86%A4)
 - [람다식](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EB%9E%8C%EB%8B%A4%EC%8B%9D.MD#%EB%9E%8C%EB%8B%A4%EC%8B%9D)
 - [원시타입vs참조타입](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9B%90%EC%8B%9C%ED%83%80%EC%9E%85vs%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85.MD#%EC%9B%90%EC%8B%9C-%ED%83%80%EC%9E%85-vs-%EC%B0%B8%EC%A1%B0-%ED%83%80%EC%9E%85)
