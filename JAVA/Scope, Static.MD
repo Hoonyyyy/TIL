@@ -9,6 +9,7 @@
 ### 지역변수(Locale Variable)
 - 메서드 안에서만 사용이 가능
 
+### 예시
 ```JAVA
 public class ScopeTest {
     String sClassVal = "Class Value"; // Class 영역에 선언한 변수(Global Variable)
@@ -28,8 +29,9 @@ public class ScopeTest {
     }
 }
 ```
+------------------------------------------------------------------------------------------------
 
-## 다른 설명
+# 다른 설명
 - 협업 시
 - left가 왼쪽을 뜻할수도 있고, Leave과거형인 left로 사용될 수도 있음
 - 유효범위(Scope)가 존재하므 이러한 명충돌을 방지할 수 있다.
