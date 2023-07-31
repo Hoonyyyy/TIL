@@ -18,6 +18,7 @@
 - [직렬화](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%A7%81%EB%A0%AC%ED%99%94.MD#%EC%A7%81%EB%A0%AC%ED%99%94)
 - [for문, 향상for문 ,while문 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/for%EB%AC%B8%20while%EB%AC%B8%20%EC%B0%A8%EC%9D%B4.MD#for%EB%AC%B8-while%EB%AC%B8-%EC%B0%A8%EC%9D%B4)
 - [Scope, Static](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/Scope%2C%20Static.MD#scope-static)
+- [Java 메모리관리 Stack,Heap](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC%20Stack,Heap.MD#%EC%9E%90%EB%B0%94-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-stackheap)
 
 # Spring
 - [스프링 컨테이너 기본흐름(AbstractApplicationContext)](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84(AbstractApplicationContext).MD#%EC%8A%A4%ED%94%84%EB%A7%81-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B8%B0%EB%B3%B8%ED%9D%90%EB%A6%84abstractapplicationcontextmd)
