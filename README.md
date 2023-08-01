@@ -105,7 +105,7 @@
 
 # CS
 ## 운영체제
--[운용기법 7가지]()
+-[운용기법 7가지](https://github.com/Hoonyyyy/TIL/blob/main/CS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%9A%A9%EA%B8%B0%EB%B2%95%207%EA%B0%80%EC%A7%80.MD#%EC%9A%B4%EC%9A%A9%EA%B8%B0%EB%B2%95-7%EA%B0%80%EC%A7%80)
 
 # 혼자 생각
 - [각종오류](https://github.com/Hoonyyyy/TIL/blob/main/%ED%98%BC%EC%9E%90%20%EC%83%9D%EA%B0%81/%EA%B0%81%EC%A2%85%20%EC%98%A4%EB%A5%98.MD#%EA%B0%81%EC%A2%85%EC%98%A4%EB%A5%98)
