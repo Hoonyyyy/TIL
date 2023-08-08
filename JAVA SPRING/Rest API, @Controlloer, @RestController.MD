@@ -52,3 +52,11 @@ partner API : 미리 정해놓은 사람만 쓰는 API
 - 비동기 처리의 대표적인것이 Ajax
 
 
+
+## @Controller
+- 주로 view 반환할떄 사용
+
+## @RestController
+- 주로 Data를 JSON형태로 반환할떄 사용함
+
+
