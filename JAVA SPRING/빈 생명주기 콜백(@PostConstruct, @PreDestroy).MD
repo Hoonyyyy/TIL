@@ -33,7 +33,7 @@
 - 약간 변경 정도는.. 생성자에서 한번에 하는게 나을수도 있음
 
 ### 생성 초기화 분리 전 코드
-₩₩₩ java
+``` java
 public class MemberService {
     private String username;
     private String password;
@@ -47,10 +47,10 @@ public class MemberService {
         this.databaseConnection = connectToDatabase();
     }
 }
-₩₩₩
+```
 
 ### 생성 초기화 분리 후 코드
-₩₩₩ java
+``` java
 public class MemberService {
     private String username;
     private String password;
