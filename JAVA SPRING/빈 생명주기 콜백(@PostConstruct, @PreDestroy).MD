@@ -29,6 +29,7 @@
   - 필수 정보(파라미터)를 받고, 메모리를 할당해서 객체를 생성하는 책임을 가진다.
 - 초기화
   - 이렇게 생성된 값들을 활용해서 외부 커넥션을 연결하는 등 무거운 동작을 수행함
+- -
 - 따라서 생성자 안에서 무거운 초기화 작업을 함께 하는 것 보다는 객체를 생성하는 부분과 초기화 하는 부분을 명확하게 나누는 것이 유지보수 관점에서 좋음
 - 약간 변경 정도는.. 생성자에서 한번에 하는게 나을수도 있음
 
@@ -76,7 +77,27 @@ public class MemberService {
 ## @PostConstruct
 - 객체의 초기화 부분
 - 객체가 생성된 후 별도의 초기화 작업을 위해 실행하는 매더를 선언
-- @PostConstruct 어노테이션을 설정해놓은
+- @PostConstruct 어노테이션을 설정해놓은 init 메서드는 WAS가 띄어질 때 실행됨
+
+## PreDestory
+- 마지막 소멸 단계
+- 스프링 컨테이너에서 객체(빈)를 제거하기 전에 해야할 작업이 있다면 메서드 위에 사용하는 어노테이션
+- close() 하기 직전에 실행 -> ((AbstractApplicationContext) context).close()
+
+## 예시
+~~~ java
+@PostConstruct
+public void init() {
+	System.out.println("초기화 메서드 호출")
+}
+...
+
+@PreDestroy
+public void destroy() {
+	System.out.println("종료 메서드 호출")
+}
+~~~
+
 
 
 
