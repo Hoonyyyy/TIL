@@ -38,6 +38,7 @@
 - [@RestController,@Controller](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Rest%20API%2C%20%40Controlloer%2C%20%40RestController.MD#rest-api-controlloer-restcontroller)
 - [presentation-layer, business-layer](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Presentation%20Layer%2C%20Business%20Layer%2C%20Listener.MD#presentation-layer-business-layer)
 - [객체지향 5대 원칙](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%9E%91%EC%84%B1%EA%B7%9C%EC%B9%99.MD#%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%9E%91%EC%84%B1%EC%9D%98-%EC%9B%90%EC%B9%99solid)
+- [빈 생명주기 콜백(@PostConstruct, @Predestory)](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1(@PostConstruct,%20@PreDestroy).MD#%EB%B9%88-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EC%BD%9C%EB%B0%B1postconstruct-predestroy)
 
 
 ## Mybatis
