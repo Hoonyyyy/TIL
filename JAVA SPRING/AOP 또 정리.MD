@@ -27,6 +27,8 @@
 - 타깃이 필요없는 순수한 부가 기능.
 - aspect가 무엇을 언제 할지를 정의하고있음
 - Before, AfterReturning , AfterThrowing, After, Around
+- Around
+  - 지정된 메서드 실행 전,후 모두 동작함
 ```
 언제 공통 관심 기능을 핵심 로직에 적용할 지를 정의.
 (ex. `메서드 호출하기 전`(언제)에 `트랜잭선 시작`(공통 기능) 기능을 적용)
