@@ -48,5 +48,5 @@ Future 인터페이스
 
 ### I/O ?
 - Input/Output의 줄임말로, 컴퓨터의 입출력을 의미함 간단히 말해 프로그램이 데이터를 입력받거나 출력하는 것을 말합니다.
-- 자바에서 I/O는 FileInputStream, FileOutputStream, FileReader, FileWriter 등의 클래스를 하여 파일을 읽고 쓴느 작업을 할 수있음
+- 자바에서 I/O는 FileInputStream, FileOutputStream, FileReader, FileWriter 등의 클래스를 하여 파일을 읽고 쓰는 작업을 할 수있음
 - 또한 BufferedReader, BufferedWriter, Scanner 등의 클래스를 이용하여 버퍼링(buffering) 기능을활용하여 입출력 작업을 더욱 효율적으로 처리할 수 있다.
