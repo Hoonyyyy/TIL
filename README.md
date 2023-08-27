@@ -103,6 +103,7 @@
 - [URI, URL, URN](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/URI%2C%20URL%2C%20URN.MD#uri-url-urn)
 - [Web Server와 WAS 차이](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/Web%20Server%EC%99%80%20WAS%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD#web-server%EC%99%80-was%EC%9D%98-%EC%B0%A8%EC%9D%B4)
 - [멀티쓰레드](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/%EB%A9%80%ED%8B%B0%20%EC%93%B0%EB%A0%88%EB%93%9C.MD#%EB%A9%80%ED%8B%B0-%EC%93%B0%EB%A0%88%EB%93%9C)
+- [Mac에서 h2 실행 권한](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/Mac%EC%97%90%EC%84%9C%20h2%20%EC%8B%A4%ED%96%89%EA%B6%8C%ED%95%9C.MD#mac%EC%97%90%EC%84%9C-h2-%EC%8B%A4%ED%96%89%EA%B6%8C%ED%95%9C)
 
 # CS
 ## 운영체제
