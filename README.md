@@ -47,6 +47,7 @@
   
 ## Hibernate
 - [JPA 기본](https://github.com/Hoonyyyy/TIL/blob/main/Hibernate/JPA%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%A6%AC.MD#jpa)
+- [JPA 기본생성자, Reflection](https://github.com/Hoonyyyy/TIL/blob/main/Hibernate/JPA%20%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90,Reflection.MD#jpa-%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90reflection)
 
 # HTML, CSS
 ## HTML
