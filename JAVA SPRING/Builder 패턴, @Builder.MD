@@ -307,8 +307,37 @@ Student student2 =
 
 ### 객체 생성 단계를 지연할 수 있음
 ~~~ java
+// 1. 빌더 클래스 전용 리스트 생성
+List<StudentBuilder> builders = new ArrayList<>();
 
+// 2. 객체를 최종 생성 하지말고 초깃값만 세팅한 빌더만 생성
+builders.add(
+    new StudentBuilder(2016120091)
+    .name("홍길동")
+);
+
+builders.add(
+    new StudentBuilder(2016120092)
+    .name("임꺽정")
+    .grade("senior")
+);
+
+builders.add(
+    new StudentBuilder(2016120093)
+    .name("박혁거세")
+    .grade("sophomore")
+    .phoneNumber("010-5555-5555")
+);
+
+// 3. 나중에 빌더 리스트를 순회하여 최종 객체 생성을 주도
+for(StudentBuilder b : builders) {
+    Student student = b.build();
+    System.out.println(student);
+}
 ~~~
+
+## 빌드 패턴 단점
+
 
 
 https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EB%B9%8C%EB%8D%94Builder-%ED%8C%A8%ED%84%B4-%EB%81%9D%ED%8C%90%EC%99%95-%EC%A0%95%EB%A6%AC
