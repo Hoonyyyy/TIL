@@ -337,7 +337,45 @@ for(StudentBuilder b : builders) {
 ~~~
 
 ## 빌드 패턴 단점
+- 코드 복잡성 증가
+- 생성자 보다는 성능이 떨어짐
+- 약 4개 이하의 필드 개수를 가진느 경우는 차라리 생성자를 사용하는것이 좋음
+	- 빌더 패턴의 코드가 다소 장황하기 때문
+	- 다만 API는 시간이 지날수록 많은 매개변수를 갖는 경향이 있기 때문에 애초에 빌더 패턴으로 시작하는 편이 나을 수 있음
 
+### Lombok의 @Builder
+- @Builder : PersonBuilder 빌더 클래스와 이를 반환하는 builder() 메서드 생성
+- @AllArgsConstruct(access = AccessLevel.PRIVATE) : @Builder 선언하면 전체 인자를 갖는 생성자를 자동으로 만드는데 이를 private로 설정
+- @ToString : toString() 메서드 자동 생성
+~~~ java
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.ToString;
+
+@Builder
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@ToString
+class Person {
+    private final String name;
+    private final String age;
+    private final String gender;
+    private final String job;
+    private final String birthday;
+    private final String address;
+}
+
+public static void main(String[] args) {
+    Person person = Person.builder()
+            .name("홍길동")
+            .age("26")
+            .gender("man") // 선택 파라미터
+            .job("Warrior")
+            .birthday("1800.10.10")
+            .address("조선")
+            .build();
+}
+~~~
 
 
 https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EB%B9%8C%EB%8D%94Builder-%ED%8C%A8%ED%84%B4-%EB%81%9D%ED%8C%90%EC%99%95-%EC%A0%95%EB%A6%AC
