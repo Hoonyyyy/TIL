@@ -255,7 +255,60 @@ Student student1 = new StudentBuilder(2016120091)
 System.out.println(student1);
 ~~~
 
+### 필수 멤버와 선택적 멤버를 분리 가능
+~~~ java
+class StudentBuilder {
+    // 초기화 필수 멤버
+    private int id;
 
+    // 초기화 선택적 멤버
+    private String name;
+    private String grade;
+    private String phoneNumber;
+
+    // 필수 멤버는 빌더의 생성자를 통해 설정
+    public StudentBuilder(int id) {
+        this.id = id;
+    }
+
+    // 나머지 선택 멤버는 메서드로 설정
+    public StudentBuilder name(String name) {
+        this.name = name;
+        return this;
+    }
+
+    public StudentBuilder grade(String grade) {
+        this.grade = grade;
+        return this;
+    }
+
+    public StudentBuilder phoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+        return this;
+    }
+
+    public Student build() {
+        return new Student(id, name, grade, phoneNumber);
+    }
+}
+
+
+Student student1 = 
+        new StudentBuilder(2016120091) // 필수 멤버
+        .name("홍길동") // 선택 멤버
+        .build();
+
+Student student2 = 
+        new StudentBuilder(2016120091) // 필수 멤버
+        .name("임꺽정") // 선택 멤버
+        .grade("freshman") // 선택 멤버
+        .build();
+~~~
+
+### 객체 생성 단계를 지연할 수 있음
+~~~ java
+
+~~~
 
 
 https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EB%B9%8C%EB%8D%94Builder-%ED%8C%A8%ED%84%B4-%EB%81%9D%ED%8C%90%EC%99%95-%EC%A0%95%EB%A6%AC
