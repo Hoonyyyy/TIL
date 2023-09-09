@@ -12,6 +12,9 @@
   - 즉, 인덱스는 원하는 데이터를 빠르게 찾을 때 빛을 발휘함
 
 ## 어떤 컬럼에 인덱스를 설정하는게 좋은지?
+- 크기가 충분히 큰 테이블
+- Insert, Delete, Update가 자주 발생하지 않는 컬럼
+- Join, where Order by(Index가 정렬되어 있기 때문에 성능이 향상될 수 있다.)를 자주 사용하는 컬럼
 - 인덱스는 한 테이블당 보통 3~5개 정도가 적당함
 - 효율적으로 쓰기 위한 4가지
   - 카디널리티 (Cardinality)
@@ -58,8 +61,55 @@
 
 
 ## B+Tree 구조
+- 예시이지만 제일 아래에서도 오른쪽으로 가는 구조를 가짐
+- 노드에 Key만 두고, data는 담아두지 않음
+- 오직 리프 노드에만 Key와 data를 담아서 저장함, 리프 노드들은 Linked List로 연결
+- 하나의 노드에 더 많은 Key값을 담을 수 있기에 트리의 높이가 낮아짐(더 빠르게 검색 가능)
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc4C7d8%2Fbtq6YlQ5tHI%2FZAT45PnENpIctErdeIcD6K%2Fimg.png">
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrnQnX%2FbtrCkgFoKo3%2FVQfHcWds7kmFfk3bLaPdtk%2Fimg.png">
+
+
+# Spring Entity indexa 설정하기
+~~~ java
+@Entity
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Getter
+@ToString(exclude = {"team"})
+@Table(indexes = {@Index(name = "member_index",columnList = "member_id")})
+public class Member{
+ 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "member_id")
+    private Long id;
+ 
+    @Column(name = "name",unique = true)
+    private String name;
+ 
+    @Column(name = "age")
+    private int age;
+ 
+    @Builder
+    public Member(String name, int age){
+        this.name=name;
+        this.age=age;
+    }
+ 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "team_id")
+    private Team team;
+ 
+    public void changeAge(int age){
+        this.age=age;
+    }
+ 
+    public void addTeam(Team team){
+        team.getMembers().add(this);
+        this.team=team;
+    }
+}
+~~~
 
 
 
