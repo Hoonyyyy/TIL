@@ -276,7 +276,7 @@ class GfG {
 
 ### Deque
 
-<img src="https://velog.velcdn.com/images/baekgom/post/93d37e6f-ca85-475f-b839-5c7f07ba5dd2/image.png">
+<img src="https://velog.velcdn.com/images/baekgom/post/cc9d64da-a39e-4c5e-8a9d-5480d77e1aa0/image.png">
 
 - 큐 데이터 구조의 변형
 - "양방향 큐"
