@@ -45,7 +45,7 @@ public class StackQueue {
 
 ### 사용법 예시2
 - empty()
-  - 스택이 비어 있는지 확인 (비어있으면 true, 없으면 false)
+  - stack이 비어 있는지 확인 (비어있으면 true, 없으면 false)
 - peek()
   - 스택의 맨 위에 저장된 객체를 반환
   - pop()과 달리, 객체를 반환 후 삭제 하지는 X(즉, 스택에서 객체를 꺼내지 않음)
