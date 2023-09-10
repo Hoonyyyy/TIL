@@ -1,6 +1,9 @@
 # Stack vs Queue' & 'LIFO(후입선출) vs FIFO(선입선출)
 
 # Stack & LIFO (후입선출)
+
+<img src="https://velog.velcdn.com/images/baekgom/post/93d37e6f-ca85-475f-b839-5c7f07ba5dd2/image.png">
+
 - 가장 최근에 요청된 것을 가장 먼저 처리, 가장 처음에 들어온 요청은 최후에 처리
   - 같은 구조와 크기의 자료를 정해진 방향으로만 쌓을 수 있다.
   - top으로 정한 곳을 통해서만 접근 가능해서, 거기서 데이터의 추가/삭제가 이뤄진다.
@@ -111,7 +114,7 @@ public class Col1 {
 ~~~
 
 
-<img src="https://velog.velcdn.com/images/baekgom/post/93d37e6f-ca85-475f-b839-5c7f07ba5dd2/image.png">
+
 
 
 
