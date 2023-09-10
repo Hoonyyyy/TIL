@@ -106,12 +106,13 @@
 # 코드 외
 - [URI, URL, URN](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/URI%2C%20URL%2C%20URN.MD#uri-url-urn)
 - [Web Server와 WAS 차이](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/Web%20Server%EC%99%80%20WAS%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD#web-server%EC%99%80-was%EC%9D%98-%EC%B0%A8%EC%9D%B4)
-- [멀티쓰레드](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/%EB%A9%80%ED%8B%B0%20%EC%93%B0%EB%A0%88%EB%93%9C.MD#%EB%A9%80%ED%8B%B0-%EC%93%B0%EB%A0%88%EB%93%9C)
+
 - [Mac에서 h2 실행 권한](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/Mac%EC%97%90%EC%84%9C%20h2%20%EC%8B%A4%ED%96%89%EA%B6%8C%ED%95%9C.MD#mac%EC%97%90%EC%84%9C-h2-%EC%8B%A4%ED%96%89%EA%B6%8C%ED%95%9C)
 
 # CS
 ## 운영체제
 - [운용기법 7가지](https://github.com/Hoonyyyy/TIL/blob/main/CS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%9A%A9%EA%B8%B0%EB%B2%95%207%EA%B0%80%EC%A7%80.MD#%EC%9A%B4%EC%9A%A9%EA%B8%B0%EB%B2%95-7%EA%B0%80%EC%A7%80)
+- [멀티쓰레드](https://github.com/Hoonyyyy/TIL/blob/main/%EC%BD%94%EB%93%9C%20%EC%99%B8/%EB%A9%80%ED%8B%B0%20%EC%93%B0%EB%A0%88%EB%93%9C.MD#%EB%A9%80%ED%8B%B0-%EC%93%B0%EB%A0%88%EB%93%9C)
 
 ## 자료구조
 - [Stack vs Queue' & 'LIFO(후입선출) vs FIFO(선입선출)](https://github.com/Hoonyyyy/TIL/blob/main/CS/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack%20vs%20Queue'%20%26%20'LIFO(%ED%9B%84%EC%9E%85%EC%84%A0%EC%B6%9C)%20vs%20FIFO(%EC%84%A0%EC%9E%85%EC%84%A0%EC%B6%9C).MD#stack-vs-queue--lifo%ED%9B%84%EC%9E%85%EC%84%A0%EC%B6%9C-vs-fifo%EC%84%A0%EC%9E%85%EC%84%A0%EC%B6%9C)
