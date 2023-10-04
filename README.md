@@ -22,6 +22,7 @@
 - [Java 메모리관리 Stack,Heap](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC%20Stack,Heap.MD#%EC%9E%90%EB%B0%94-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-stackheap)
 - [조건문, 반복문에 따른 차이](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%A1%B0%EA%B1%B4%EB%AC%B8,%20%EB%B0%98%EB%B3%B5%EB%AC%B8%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%B0%A8%EC%9D%B4.MD#%EC%A1%B0%EA%B1%B4%EB%AC%B8-%EB%B0%98%EB%B3%B5%EB%AC%B8%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%B0%A8%EC%9D%B4)
 - [오버로딩, 오버라이딩](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9%2C%20%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9.MD#%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9-%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9)
+- [Record Class](https://github.com/Hoonyyyy/TIL/blob/main/JAVA/Record%20class.MD#record-class) 
   
 
 # Spring
