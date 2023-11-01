@@ -41,7 +41,7 @@ partner API : 미리 정해놓은 사람만 쓰는 API
 
 ## 스프링은 클라이언트와 서버 중 "서버" 이다.
 - Rest API 구조에서는 뷰와 관련된 처리가 없어지고, 사용자에게 데이터만 응답한다.
-- 어노테이션에서는 MVC구조를 위해 컨트롤러가 구현된 클래스에서 사용되는 어노테이션은 @Controlloer인데
+- 어노테이션에서는 MVC구조를 위해 컨트롤러가 구현된 클래스에서 사용되는 어노테이션은 @Controller인데
 - Result API를 위한 어노테이션은 @RestController이다.
 - @RestController = @Controller + @ResponseBody
 
