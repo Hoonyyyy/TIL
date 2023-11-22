@@ -45,6 +45,7 @@
 - [Builder패턴, @Builder](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/Builder%20%ED%8C%A8%ED%84%B4%2C%20%40Builder.MD#builder-%ED%8C%A8%ED%84%B4-builder)
 - [@index, index](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/%40index.MD#index) 
 - [WebClient](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/WebClient.MD#webclient)
+- [CORS와 SOP](https://github.com/Hoonyyyy/TIL/blob/main/JAVA%20SPRING/CORS%EC%99%80%20SOP.MD#cors%EC%99%80-sop) 
 
 
 ## Mybatis
