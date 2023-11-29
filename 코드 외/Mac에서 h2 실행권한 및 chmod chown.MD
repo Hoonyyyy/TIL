@@ -44,10 +44,9 @@
 # 이거 보고 더 정리해야함 (rwx에 관한것)
 https://gocoder.tistory.com/1793
 
+https://velog.io/@wmc1415/%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B6%8C%ED%95%9Cpermisson-%EC%84%A4%EC%A0%95chmodchown1
 
-
-
-
+https://velog.io/@wmc1415/%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B6%8C%ED%95%9Cpermisson-%EC%84%A4%EC%A0%95chmodchown2
 
 
 
