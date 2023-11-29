@@ -48,7 +48,7 @@ https://velog.io/@wmc1415/%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B6%8C%ED%95%9Cpermisso
 
 https://velog.io/@wmc1415/%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B6%8C%ED%95%9Cpermisson-%EC%84%A4%EC%A0%95chmodchown2
 
-
+https://m.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS6390061632
 
 
 
